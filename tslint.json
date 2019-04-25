@@ -1,0 +1,24 @@
+{
+  "defaultSeverity": "warning",
+  "extends": ["tslint-config-standard"],
+  // "react-app"
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**",
+      "src/serviceWorker.ts"
+    ]
+  },
+  "rules": {
+    "max-line-length": {
+      "options": [96]
+    },
+    "indent": ["error", 2, {"FunctionDeclaration": {"parameters": "first"}}],
+    "ter-indent": ["error", 2, {"FunctionDeclaration": {"parameters": "first"}}]
+
+    // "await-promise": [true, "Bluebird"],
+    // "interface-name": false,
+    // "ordered-imports": false,
+    // "object-literal-sort-keys": false,
+    // "no-consecutive-blank-lines": false
+  }
+}
