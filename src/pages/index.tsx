@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './index.css'
+import { DatePicker } from 'antd'
 
 export default function () {
   return (
@@ -13,6 +14,7 @@ export default function () {
           </a>
         </li>
       </ul>
+      <DatePicker  />
     </div>
   )
 }
